@@ -10,4 +10,9 @@ public class SayHello {
     public String sayHello() {
         return "Hello World!";
     }
+
+    @RequestMapping("/fuck")
+    public String sayFuck() {
+        return "Fuck the world!";
+    }
 }
